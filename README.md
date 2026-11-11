@@ -25,19 +25,21 @@ A backup restore recovers a VM from a saved copy. A snapshot rollback returns th
 | --- | --- |
 | ![Proxmox restore log ends with TASK OK](evidence/restore.jpg) | ![Proxmox snapshot rollback log shows TASK OK](evidence/rollback.jpg) |
 
-*Screenshots are cropped from Lab 4 to show the relevant console and task output.*
+*These highlights come from my [Lab 4 coursework evidence](labs/04-clones-snapshots-and-recovery.pdf), which includes my title slide and the four task and console captures in sequence.*
 
-## Lab index
+## Coursework evidence by lab
 
-| Lab | What I documented |
-| --- | --- |
-| **1 · Ubuntu** | Provisioned an Ubuntu VM, checked its network configuration, and recorded its Proxmox hardware and options. |
-| **2 · Windows Server and Rocky Linux** | Provisioned Windows Server 2019 and Rocky Linux. Configured a second virtual disk for each guest and verified it in the operating system. |
-| **3 · System maintenance** | Documented cold and live migration of Ubuntu. Applied updates and captured backups for Ubuntu, Rocky Linux, and Windows Server 2019. |
-| **4 · Clones, snapshots, and recovery** | Created an Ubuntu clone and template, provisioned a full clone from the template, backed up a Bitnami WordPress VM, and tested Ubuntu restore and rollback. |
-| **4.5 · Docker and WordPress** | Verified Docker service status and running containers, then documented WordPress installation, the admin portal, and the published lab site. |
-| **5 · Windows 10 Pro** | Configured a Windows 10 Pro VM and verified that Proxmox recognized its QEMU Guest Agent. |
-| **6 · File sharing** | Accessed a Windows Server share from Windows 10 and Ubuntu, then verified the saved changes from the server. |
+Each evidence PDF pairs my original coursework title slide with selected screenshots from that lab. The screenshots focus on the relevant task or application.
+
+| Lab | What I documented | PDF and screenshots |
+| --- | --- | --- |
+| **1 · Ubuntu** | Provisioned an Ubuntu VM, checked its network configuration, and recorded its Proxmox hardware and options. | [View Lab 1 evidence](labs/01-ubuntu.pdf) |
+| **2 · Windows Server and Rocky Linux** | Provisioned Windows Server 2019 and Rocky Linux. Configured a second virtual disk for each guest and verified it in the operating system. | [View Lab 2 evidence](labs/02-windows-server-and-rocky-linux.pdf) |
+| **3 · System maintenance** | Documented cold and live migration of Ubuntu. Applied updates and captured backups for Ubuntu, Rocky Linux, and Windows Server 2019. | [View Lab 3 evidence](labs/03-system-maintenance.pdf) |
+| **4 · Clones, snapshots, and recovery** | Created an Ubuntu clone and template, provisioned a full clone from the template, backed up a Bitnami WordPress VM, and tested Ubuntu restore and rollback. | [View Lab 4 evidence](labs/04-clones-snapshots-and-recovery.pdf) |
+| **4.5 · Docker and WordPress** | Verified Docker service status and running containers, then documented WordPress installation, the admin portal, and the published lab site. | [View Lab 4.5 evidence](labs/04-5-docker-and-wordpress.pdf) |
+| **5 · Windows 10 Pro** | Configured a Windows 10 Pro VM and verified that Proxmox recognized its QEMU Guest Agent. | [View Lab 5 evidence](labs/05-windows-10-pro.pdf) |
+| **6 · File sharing** | Accessed a Windows Server share from Windows 10 and Ubuntu, then verified the saved changes from the server. | [View Lab 6 evidence](labs/06-file-sharing.pdf) |
 
 ## Related projects
 
