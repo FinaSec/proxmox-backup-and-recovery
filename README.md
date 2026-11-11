@@ -15,6 +15,18 @@ I used Proxmox VE to provision and maintain Linux and Windows virtual machines, 
 
 A backup restore recovers a VM from a saved copy. A snapshot rollback returns the existing VM to an earlier state. For a recovery drill, I would also record how long the restore took and verify the restored guest by booting it and checking its services. The backup-restore evidence here captures the completed Proxmox task.
 
+## Recovery evidence
+
+| Backup complete | Boot failure |
+| --- | --- |
+| ![Proxmox reports a successful backup](evidence/backup.jpg) | ![Ubuntu GRUB rescue prompt after the boot failure](evidence/boot.jpg) |
+
+| Restore complete | Snapshot rollback complete |
+| --- | --- |
+| ![Proxmox restore log ends with TASK OK](evidence/restore.jpg) | ![Proxmox snapshot rollback log shows TASK OK](evidence/rollback.jpg) |
+
+*Screenshots are cropped from Lab 4 to show the relevant console and task output.*
+
 ## Lab index
 
 | Lab | What I documented |
